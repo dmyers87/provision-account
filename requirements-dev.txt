@@ -4,9 +4,20 @@
 
 awscli>=1.16,<1.17
 cfn-lint>=0.22.3
-aws-sam-cli>=0.17.0
+aws-sam-cli>=1.51.0
 flake8==3.8.4
 pytest-cov==2.5.1
 pytest-mock==1.10.0
 pytest==6.2.2
 
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cookiecutter>=2.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+dateparser>=1.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.3 # not directly required, pinned by Snyk to avoid a vulnerability
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
+pyyaml>=5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
