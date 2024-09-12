@@ -4,7 +4,7 @@
 
 awscli>=1.16,<1.17
 cfn-lint>=0.22.3
-aws-sam-cli>=0.17.0
+aws-sam-cli>=1.122.0
 flake8==3.8.4
 pytest-cov==2.5.1
 pytest-mock==1.10.0
